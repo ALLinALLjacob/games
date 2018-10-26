@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="269" y="106">
+            <group eventID="1" id="-1">
+                <if comment="false" x="280" y="131">
+                    <group eventID="1" id="-1">
+                        <push-shove comment="false" x="291" y="164">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="3"/>
+                            <int id="4" val="100"/>
+                        </push-shove>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <control eid="0" id="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

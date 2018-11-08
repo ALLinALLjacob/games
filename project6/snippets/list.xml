@@ -19,7 +19,9 @@
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <actor default="" defaultValue="" desc="" dropdown="" fullname="Health Points" hidden="true" id="1" name="_HealthPoints" order="1"/>
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
